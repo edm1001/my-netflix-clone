@@ -1,3 +1,5 @@
+"use client"
+
 import { useState } from "react"; //fix useState error
 import Input from "@/components/input";
 
