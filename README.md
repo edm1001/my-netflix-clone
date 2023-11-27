@@ -1,5 +1,13 @@
 # Netflix Clone
 
+  ## Table of Contents
+* [Description](#Description)
+* [Features](#Features)
+* [Contributors](#Contributors)
+* [Tools](#Tools)
+* [Question](#Question)
+* [License](#license)
+
 ## Description
  This is a full stack netflix like app with authentication functions and playable video features
 
@@ -7,7 +15,10 @@
  - User authentication
  - Modern front end styling and animations
  - Database with playable movies
- 
+
+## Contributors
+- Edmer Franciz Valencia
+
  ## Tools
  ReactJS, NextJS, Tailwindcss, Prisma, MongoDB, and more!
 
