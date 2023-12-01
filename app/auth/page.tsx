@@ -63,12 +63,12 @@ const Auth = () => {
                             value={password}
                             />
                         </div>
-                        <button className="bg-red-600 py-3 text-white rounded-md w-full mt-10 hover:bg-red-700 transition">{variant === 'login' ? 'Login' : 'Sign up'}</button>
+                        <button onClick={register} className="bg-red-600 py-3 text-white rounded-md w-full mt-10 hover:bg-red-700 transition">{variant === 'login' ? 'Login' : 'Sign up'}</button>
                         <p className="text-neutral-500 mt-12">
                             {variant === 'login' ? 'Login' : 'Sign up'}
                             First time using Netflix?
                             <span onClick={toggleVariant} className="hover:underline cursor-pointer text-white ml-2">
-                             {variant === 'login' ? 'Create an Accouunt!' : 'Login'}
+                             {variant === 'login' ? 'Create an Account!' : 'Login'}
                             </span>
                         </p>
                     </div>
