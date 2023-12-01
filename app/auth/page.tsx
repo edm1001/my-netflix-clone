@@ -43,21 +43,21 @@ const Auth = () => {
 
                             <Input
                             label="Username"
-                            onChange={(ev)=> setName(ev.target.value)}
+                            onChange={(e: any)=> setName(e.target.value)}
                             id="name"
                             value={name}
                             />
                             )}
                             <Input
                             label="Email"
-                            onChange={(ev)=> setEmail(ev.target.value)}
+                            onChange={(e: any)=> setEmail(e.target.value)}
                             id="email"
                             type="email"
                             value={email}
                             />
                             <Input
                             label="Password"
-                            onChange={(ev)=> setPassword(ev.target.value)}
+                            onChange={(e: any)=> setPassword(e.target.value)}
                             id="password"
                             type="password"
                             value={password}
